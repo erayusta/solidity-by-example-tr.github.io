@@ -78,10 +78,7 @@ function Footer() {
           lisans
         </a>
         <div className={styles.bar}>|</div>
-        <a
-          href="https://twitter.com/erayusta"
-          target="__blank"
-        >
+        <a href="https://twitter.com/erayusta" target="__blank">
           çeviri (Eray Usta)
         </a>
       </div>

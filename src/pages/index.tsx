@@ -108,7 +108,8 @@ const SOL_ROUTES: Route[] = [
   },
   {
     path: "shadowing-inherited-state-variables",
-    title: "Devralınan Durum Değişkenlerini Gölgeleme (Shadowing Inherited State Variables)",
+    title:
+      "Devralınan Durum Değişkenlerini Gölgeleme (Shadowing Inherited State Variables)",
   },
   {
     path: "super",
