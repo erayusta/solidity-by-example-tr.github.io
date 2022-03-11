@@ -2,6 +2,10 @@
 
 [Solidity By Example](https://solidity-by-example.org)
 
+
+[Örneklerler Solidity](https://solidity-by-example.org)
+
+[Çeviren](https://twitter.com/erayusta)
 ### License
 
 [MIT License](LICENSE)
