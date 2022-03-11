@@ -6,7 +6,7 @@ contract Primitives {
 
     /*
     uint stands for unsigned integer, meaning non negative integers
-    different sizes are available
+    different sizes assssre available
         uint8   ranges from 0 to 2 ** 8 - 1
         uint16  ranges from 0 to 2 ** 16 - 1
         ...

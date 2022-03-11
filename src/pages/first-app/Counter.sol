@@ -4,17 +4,17 @@ pragma solidity ^0.8.10;
 contract Counter {
     uint public count;
 
-    // Function to get the current count
+    // şuanki count değerini döndürür
     function get() public view returns (uint) {
         return count;
     }
 
-    // Function to increment count by 1
+    // count değerini 1 arttırır.
     function inc() public {
         count += 1;
     }
 
-    // Function to decrement count by 1
+    // count değerini 1 azaltır.
     function dec() public {
         count -= 1;
     }

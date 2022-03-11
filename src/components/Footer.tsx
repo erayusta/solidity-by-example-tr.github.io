@@ -41,7 +41,7 @@ function Footer() {
         </div>
       </div>
       <div className={styles.row}>
-        Donate
+        Bağış için
         <span role="img" aria-label="smiley">
           🙂
         </span>
@@ -52,10 +52,11 @@ function Footer() {
         </a>
       </div>
       <div className={styles.row}>
-        your ETH will directly go to
+        Bağışlarınız doğrudan
         <a href="https://khanacademy.org" target="__blank" className={styles.khan}>
           Khan Academy
         </a>
+        e gidecektir.
       </div>
       <div className={styles.row}>
         <a href="mailto:contact@solidity-by-example.org">
@@ -67,14 +68,21 @@ function Footer() {
           href="https://github.com/solidity-by-example/solidity-by-example.github.io"
           target="__blank"
         >
-          source
+          kaynak
         </a>
         <div className={styles.bar}>|</div>
         <a
           href="https://github.com/solidity-by-example/solidity-by-example.github.io/blob/gh-pages/LICENSE"
           target="__blank"
         >
-          license
+          lisans
+        </a>
+        <div className={styles.bar}>|</div>
+        <a
+          href="https://twitter.com/erayusta"
+          target="__blank"
+        >
+          çeviri (Eray Usta)
         </a>
       </div>
     </div>

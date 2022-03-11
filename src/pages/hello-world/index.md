@@ -4,7 +4,7 @@ version: 0.8.10
 description: Hello world in Solidity
 ---
 
-`pragma` specifies the compiler version of Solidity.
+`pragma`, Solidity'nin derleyici sürümünü belirtir.
 
 ```solidity
 {{{HelloWorld}}}

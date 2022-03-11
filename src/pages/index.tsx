@@ -15,35 +15,35 @@ const SOL_ROUTES: Route[] = [
   },
   {
     path: "first-app",
-    title: "First App",
+    title: "İlk App",
   },
   {
     path: "primitives",
-    title: "Primitive Data Types",
+    title: "Basit Veri Tipleri (Primitive Data Types)",
   },
   {
     path: "variables",
-    title: "Variables",
+    title: "Değişkenler (Variables)",
   },
   {
     path: "constants",
-    title: "Constants",
+    title: "Sabitler (Constants)",
   },
   {
     path: "immutable",
-    title: "Immutable",
+    title: "Değişmezler (Immutable)",
   },
   {
     path: "state-variables",
-    title: "Reading and Writing to a State Variable",
+    title: "Durum Değişkeni Yazma ve Okuma (State Variable)",
   },
   {
     path: "ether-units",
-    title: "Ether and Wei",
+    title: "Ether ve Wei",
   },
   {
     path: "gas",
-    title: "Gas and Gas Price",
+    title: "Gas ve Gas Price",
   },
   // Flow control
   {
@@ -52,7 +52,7 @@ const SOL_ROUTES: Route[] = [
   },
   {
     path: "loop",
-    title: "For and While Loop",
+    title: "For ve While Loop",
   },
   // collection data types
   {
@@ -74,16 +74,16 @@ const SOL_ROUTES: Route[] = [
   },
   {
     path: "data-locations",
-    title: "Data Locations - Storage, Memory and Calldata",
+    title: "Veri Konumları - Depolama, Bellek ve Çağrı Verileri",
   },
   // function
   {
     path: "function",
-    title: "Function",
+    title: "Fonksiyonlar (Function)",
   },
   {
     path: "view-and-pure-functions",
-    title: "View and Pure Functions",
+    title: "Görünüm ve Saf Fonksiyonlar (View and Pure)",
   },
   {
     path: "error",
@@ -91,45 +91,45 @@ const SOL_ROUTES: Route[] = [
   },
   {
     path: "function-modifier",
-    title: "Function Modifier",
+    title: "Fonksiyon Değiştirici (Function Modifier)",
   },
   {
     path: "events",
-    title: "Events",
+    title: "Olaylar (Events)",
   },
   // inheritance
   {
     path: "constructor",
-    title: "Constructor",
+    title: "Yapıcı (Constructor)",
   },
   {
     path: "inheritance",
-    title: "Inheritance",
+    title: "Miras Alma (Inheritance)",
   },
   {
     path: "shadowing-inherited-state-variables",
-    title: "Shadowing Inherited State Variables",
+    title: "Devralınan Durum Değişkenlerini Gölgeleme (Shadowing Inherited State Variables)",
   },
   {
     path: "super",
-    title: "Calling Parent Contracts",
+    title: "Ana Sözleşmeleri Çağırma (Calling Parent Contracts)",
   },
   {
     path: "visibility",
-    title: "Visibility",
+    title: "Görünürlük (Visibility)",
   },
   {
     path: "interface",
-    title: "Interface",
+    title: "Arayüz (Interface)",
   },
   // send / receive ether
   {
     path: "payable",
-    title: "Payable",
+    title: "Ödenebilir (Payable)",
   },
   {
     path: "sending-ether",
-    title: "Sending Ether - Transfer, Send, and Call",
+    title: "Ether Gönderme - Transfer ve Çağırma (Transfer, Send, and Call)",
   },
   {
     path: "fallback",
@@ -146,16 +146,16 @@ const SOL_ROUTES: Route[] = [
   },
   {
     path: "function-selector",
-    title: "Function Selector",
+    title: "Fonksiyon Seçici (Function Selector)",
   },
 
   {
     path: "calling-contract",
-    title: "Calling Other Contract",
+    title: "Diğer Kontratı Çağırma",
   },
   {
     path: "new-contract",
-    title: "Creating Contracts from a Contract",
+    title: "Kontrat içinden kontrat oluşturma",
   },
   // misc
   {
@@ -173,11 +173,11 @@ const SOL_ROUTES: Route[] = [
   // crypto
   {
     path: "hashing",
-    title: "Hashing with Keccak256",
+    title: "Keccak256 ile Hashing",
   },
   {
     path: "signature",
-    title: "Verifying Signature",
+    title: "İmza Doğrulama (Verifying Signature)",
   },
 ]
 
@@ -426,17 +426,16 @@ export default function HomePage() {
   return (
     <div className={styles.component}>
       <SEO
-        title="Solidity by Example | 0.8.10"
-        description="Learn smart contract programming using Solidity"
+        title="Örneklerle Solidity Türkçe | 0.8.10"
+        description="Solidity il akıllı kontrat yazmayı türkçe öğrenin"
       />
       <h1 className={styles.header}>
-        <a href="/">Solidity by Example</a>
+        <a href="/">Örneklerle Solidity - Türkçe</a>
       </h1>
       <div className={styles.subHeader}>v 0.8.10</div>
       <div className={styles.main}>
         <p>
-          an introduction to <a href="https://solidity.readthedocs.io">Solidity</a> with
-          simple examples
+          <a href="https://solidity.readthedocs.io">Solidity</a> i örneklerle öğrenin.
         </p>
 
         <div className={styles.youTube}>
@@ -445,7 +444,7 @@ export default function HomePage() {
             href="https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA"
             target="__blank"
           >
-            Most code are explained here
+            Çoğu kod burada açıklanmıştır.
           </a>
         </div>
 

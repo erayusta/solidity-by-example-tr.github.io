@@ -4,7 +4,7 @@ version: 0.8.10
 description: Example of smart contract in Solidity
 ---
 
-Here is a simple contract that you can get, increment and decrement the count store in this contract.
+İşte bu sözleşmede counter ı alabileceğiniz, artırabileceğiniz ve azaltabileceğiniz basit bir sözleşme.
 
 ```solidity
 {{{Counter}}}

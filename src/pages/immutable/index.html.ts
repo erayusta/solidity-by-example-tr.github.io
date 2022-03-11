@@ -1,14 +1,14 @@
 // metadata
 export const version = "0.8.10"
-export const title = "Immutable"
-export const description = "Immutable variables"
+export const title = "Değişmezler"
+export const description = "Değişmez Değişkenler"
 
-const html = `<p>Immutable variables are like constants. Values of immutable variables can be set inside the constructor but cannot be modified afterwards.</p>
+const html = `<p>Değişmez değişkenler sabitler gibidir. Değişmez değişkenlerin değerleri constructor içinde ayarlanabilir ancak daha sonra değiştirilemez.</p>
 <pre><code class="language-solidity"><span class="hljs-comment">// SPDX-License-Identifier: MIT</span>
 <span class="hljs-meta"><span class="hljs-keyword">pragma</span> <span class="hljs-keyword">solidity</span> ^0.8.10;</span>
 
 <span class="hljs-class"><span class="hljs-keyword">contract</span> <span class="hljs-title">Immutable</span> </span>{
-    <span class="hljs-comment">// coding convention to uppercase constant variables</span>
+    <span class="hljs-comment">// büyük harfli sabit değişkenlere kodlama kuralı</span>
     <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> <span class="hljs-keyword">immutable</span> MY_ADDRESS;
     <span class="hljs-keyword">uint</span> <span class="hljs-keyword">public</span> <span class="hljs-keyword">immutable</span> MY_UINT;
 

@@ -1,7 +1,7 @@
 // metadata
 export const version = "0.8.10"
 export const title = "Gas"
-export const description = "Example of gas and gas limit in Solidity"
+export const description = "Solidity de gas ve gas limit örneği"
 
 const html = `<h3 id="how-much-ether-do-you-need-to-pay-for-a-transaction">How much <code>ether</code> do you need to pay for a transaction?</h3>
 <p>You pay <code>gas spent * gas price</code> amount of <code>ether</code>, where</p>

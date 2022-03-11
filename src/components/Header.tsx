@@ -23,7 +23,7 @@ function Header() {
       </a>
 
       <h3 className={styles.header}>
-        <a href="/">Solidity by Example</a>
+        <a href="/">Örneklerle Solidity</a>
 
         <div className={styles.versions}>
           <div className={styles.version}>version 0.8.10</div>

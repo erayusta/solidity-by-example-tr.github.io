@@ -1,9 +1,9 @@
 // metadata
 export const version = "0.8.10"
-export const title = "Primitive Data Types"
+export const title = "Basit Veri Tipleri"
 export const description = "Primitive data types"
 
-const html = `<p>Here we introduce you to some primitive data types available in Solidity.</p>
+const html = `<p>Burada sizi Solidity'de bulunan bazı basit veri türleriyle tanıştırıyoruz.</p>
 <ul>
 <li><code>boolean</code></li>
 <li><code>uint</code></li>
@@ -17,49 +17,49 @@ const html = `<p>Here we introduce you to some primitive data types available in
     <span class="hljs-keyword">bool</span> <span class="hljs-keyword">public</span> boo <span class="hljs-operator">=</span> <span class="hljs-literal">true</span>;
 
     <span class="hljs-comment">/*
-    uint stands for unsigned integer, meaning non negative integers
-    different sizes are available
-        uint8   ranges from 0 to 2 ** 8 - 1
-        uint16  ranges from 0 to 2 ** 16 - 1
+    uint işaretsiz tamsayı anlamına gelir, yani negatif olmayan tamsayılar için
+    farklı boyutlar mevcuttur
+        uint8  0 to 2 ** 8 - 1 arasında değer alabilir
+        uint16 0 to 2 ** 16 - 1 arasında değer alabilir
         ...
-        uint256 ranges from 0 to 2 ** 256 - 1
+        uint256 0 to 2 ** 256 - 1 arasında değer alabilir
     */</span>
     <span class="hljs-keyword">uint8</span> <span class="hljs-keyword">public</span> u8 <span class="hljs-operator">=</span> <span class="hljs-number">1</span>;
     <span class="hljs-keyword">uint</span> <span class="hljs-keyword">public</span> u256 <span class="hljs-operator">=</span> <span class="hljs-number">456</span>;
     <span class="hljs-keyword">uint</span> <span class="hljs-keyword">public</span> u <span class="hljs-operator">=</span> <span class="hljs-number">123</span>; <span class="hljs-comment">// uint is an alias for uint256</span>
 
     <span class="hljs-comment">/*
-    Negative numbers are allowed for int types.
-    Like uint, different ranges are available from int8 to int256
-    
-    int256 ranges from -2 ** 255 to 2 ** 255 - 1
-    int128 ranges from -2 ** 127 to 2 ** 127 - 1
+    int türleri için negatif sayılara izin verilir.
+    Uint gibi, int8'den int256'ya kadar farklı aralıklar mevcuttur
+
+    int256 -2 ** 255 to 2 ** 255 - 1 arasında değer alabilir
+    int128 -2 ** 127 to 2 ** 127 - 1 arasında değer alabilir
     */</span>
     <span class="hljs-keyword">int8</span> <span class="hljs-keyword">public</span> i8 <span class="hljs-operator">=</span> <span class="hljs-number">-1</span>;
     <span class="hljs-keyword">int</span> <span class="hljs-keyword">public</span> i256 <span class="hljs-operator">=</span> <span class="hljs-number">456</span>;
     <span class="hljs-keyword">int</span> <span class="hljs-keyword">public</span> i <span class="hljs-operator">=</span> <span class="hljs-number">-123</span>; <span class="hljs-comment">// int is same as int256</span>
 
-    <span class="hljs-comment">// minimum and maximum of int</span>
+    <span class="hljs-comment">// minimum ve maximum int değerler</span>
     <span class="hljs-keyword">int</span> <span class="hljs-keyword">public</span> minInt <span class="hljs-operator">=</span> <span class="hljs-keyword">type</span>(<span class="hljs-keyword">int</span>).<span class="hljs-built_in">min</span>;
     <span class="hljs-keyword">int</span> <span class="hljs-keyword">public</span> maxInt <span class="hljs-operator">=</span> <span class="hljs-keyword">type</span>(<span class="hljs-keyword">int</span>).<span class="hljs-built_in">max</span>;
 
     <span class="hljs-keyword">address</span> <span class="hljs-keyword">public</span> addr <span class="hljs-operator">=</span> <span class="hljs-number">0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c</span>;
 
     <span class="hljs-comment">/*
-    In Solidity, the data type byte represent a sequence of bytes. 
-    Solidity presents two type of bytes types :
+    Solidity'de veri türü byte, bir bayt dizisini temsil eder.
+    Solidity iki tür bayt türü sunar: :
 
-     - fixed-sized byte arrays
-     - dynamically-sized byte arrays.
+     - sabit byte dizisi
+     - dinamik byte dizisi.
      
-     The term bytes in Solidity represents a dynamic array of bytes. 
-     It’s a shorthand for byte[] .
+     Solidity'deki byte terimi, dinamik bir bayt dizisini temsil eder.     
+     byte[] ın kısaltmasıdır.
     */</span>
     <span class="hljs-keyword">bytes1</span> a <span class="hljs-operator">=</span> <span class="hljs-number">0xb5</span>; <span class="hljs-comment">//  [10110101]</span>
     <span class="hljs-keyword">bytes1</span> b <span class="hljs-operator">=</span> <span class="hljs-number">0x56</span>; <span class="hljs-comment">//  [01010110]</span>
 
-    <span class="hljs-comment">// Default values</span>
-    <span class="hljs-comment">// Unassigned variables have a default value</span>
+    <span class="hljs-comment">// Varsayılan değerler</span>
+    <span class="hljs-comment">// Atanmamış değişkenlerin varsayılan bir değeri vardır</span>
     <span class="hljs-keyword">bool</span> <span class="hljs-keyword">public</span> defaultBoo; <span class="hljs-comment">// false</span>
     <span class="hljs-keyword">uint</span> <span class="hljs-keyword">public</span> defaultUint; <span class="hljs-comment">// 0</span>
     <span class="hljs-keyword">int</span> <span class="hljs-keyword">public</span> defaultInt; <span class="hljs-comment">// 0</span>

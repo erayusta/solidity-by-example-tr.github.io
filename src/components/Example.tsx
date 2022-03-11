@@ -52,10 +52,11 @@ const Example: React.FC<Props> = ({
         </div>
 
         <p>
-          Try on{" "}
+          
           <a href="https://remix.ethereum.org" target="__blank">
             Remix
           </a>
+          {" "}ile dene
         </p>
       </div>
     </div>
