@@ -435,6 +435,9 @@ export default function HomePage() {
       </h1>
       <div className={styles.subHeader}>v 0.8.10</div>
       <div className={styles.main}>
+      <p style={{color: "red"}}>
+         Türkçeleştirmeye devam ediyorum. Sayfa <strong>mapping</strong> konusuna kadar türkçeleştirildi.
+        </p>
         <p>
           <a href="https://solidity.readthedocs.io">Solidity</a> i örneklerle öğrenin.
         </p>
