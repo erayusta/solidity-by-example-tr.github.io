@@ -1,11 +1,11 @@
 // metadata
 export const version = "0.8.10"
-export const title = "For and While Loop"
-export const description = "Example of for and while loop in Solidity"
+export const title = "For ve While Döngüsü"
+export const description = "Solidity'de for ve while döngüsü örneği"
 
-const html = `<p>Solidity supports <code>for</code>, <code>while</code>, and <code>do while</code> loops.</p>
-<p>Don&#39;t write loops that are unbounded as this can hit the gas limit, causing your transaction to fail.</p>
-<p>For the reason above, <code>while</code> and <code>do while</code> loops are rarely used.</p>
+const html = `<p>Solidity <code>for</code>, <code>while</code>, ve  <code>do while</code> döngülerini destekler.</p>
+<p>Sınırsız döngüler yazmayın, çünkü bu gaz limitini aşabilir ve işleminizin başarısız olmasına neden olabilir.</p>
+<p>Yukarıdaki nedenle, <code>while</code> ve <code>do while</code> döngüleri nadir kullanılır.</p>
 <pre><code class="language-solidity"><span class="hljs-comment">// SPDX-License-Identifier: MIT</span>
 <span class="hljs-meta"><span class="hljs-keyword">pragma</span> <span class="hljs-keyword">solidity</span> ^0.8.10;</span>
 
@@ -14,11 +14,11 @@ const html = `<p>Solidity supports <code>for</code>, <code>while</code>, and <co
         <span class="hljs-comment">// for loop</span>
         <span class="hljs-keyword">for</span> (<span class="hljs-keyword">uint</span> i <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; i <span class="hljs-operator">&lt;</span> <span class="hljs-number">10</span>; i<span class="hljs-operator">+</span><span class="hljs-operator">+</span>) {
             <span class="hljs-keyword">if</span> (i <span class="hljs-operator">=</span><span class="hljs-operator">=</span> <span class="hljs-number">3</span>) {
-                <span class="hljs-comment">// Skip to next iteration with continue</span>
+                <span class="hljs-comment">// Continue ile bir sonraki döngüye geçer</span>
                 <span class="hljs-keyword">continue</span>;
             }
             <span class="hljs-keyword">if</span> (i <span class="hljs-operator">=</span><span class="hljs-operator">=</span> <span class="hljs-number">5</span>) {
-                <span class="hljs-comment">// Exit loop with break</span>
+                <span class="hljs-comment">// Break ile döngüden çıkar</span>
                 <span class="hljs-keyword">break</span>;
             }
         }

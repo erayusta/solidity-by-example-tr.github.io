@@ -1,9 +1,9 @@
 // metadata
 export const version = "0.8.10"
 export const title = "If / Else"
-export const description = "If / Else conditional statement in Solidity"
+export const description = "Solidity de If / Else koşullu ifadeleri"
 
-const html = `<p>Solidity supports conditional statements <code>if</code>, <code>else if</code> and <code>else</code>.</p>
+const html = `<p>Solidity <code>if</code>, <code>else if</code> ve <code>else</code> koşullu ifadelerini destekler.</p>
 <pre><code class="language-solidity"><span class="hljs-comment">// SPDX-License-Identifier: MIT</span>
 <span class="hljs-meta"><span class="hljs-keyword">pragma</span> <span class="hljs-keyword">solidity</span> ^0.8.10;</span>
 
@@ -24,7 +24,7 @@ const html = `<p>Solidity supports conditional statements <code>if</code>, <code
         <span class="hljs-comment">// }</span>
         <span class="hljs-comment">// return 2;</span>
 
-        <span class="hljs-comment">// shorthand way to write if / else statement</span>
+        <span class="hljs-comment">// if / else kısa yazımı</span>
         <span class="hljs-keyword">return</span> _x <span class="hljs-operator">&lt;</span> <span class="hljs-number">10</span> ? <span class="hljs-number">1</span> : <span class="hljs-number">2</span>;
     }
 }
